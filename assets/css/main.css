@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Roboto", "Noto Sans TC", system-ui, sans-serif;
+    line-height: 1.5;
+  }
+  body {
+    @apply text-dark;
+    @apply font-normal;
+    font-size: 1rem;
+  }
+}
